@@ -1,5 +1,8 @@
 package com.kogni.pontointeligente.api.services.impl;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -19,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.kogni.pontointeligente.api.entities.Lancamento;
 import com.kogni.pontointeligente.api.repositories.LancamentoRepository;
+import com.kogni.pontointeligente.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

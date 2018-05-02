@@ -1,5 +1,8 @@
 package com.kogni.pontointeligente.api.services.impl;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
 import java.util.Optional;
 
 import org.junit.Before;
